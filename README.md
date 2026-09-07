@@ -6,7 +6,9 @@ Self-hosted [OpenHands Agent Canvas](https://docs.openhands.dev/openhands/usage/
 
 | URL | Service |
 | --- | --- |
-| `https://antono4.github.io/tanganku/` | Interactive Canvas UI demo (served via GitHub Pages) |
+| `https://antono4.github.io/tanganku/` | **Official OpenHands Canvas UI** — same app served at [app.all-hands.dev/canvas](https://app.all-hands.dev/canvas) |
+
+The site ships the **official prebuilt UI** from the [`@openhands/agent-canvas`](https://www.npmjs.com/package/@openhands/agent-canvas) package (v1.16.0) — the exact same React app (build from `package/build/`) that [app.all-hands.dev/canvas](https://app.all-hands.dev/canvas) serves, with `__AGENT_CANVAS_BASE_PATH__` mounted at `/tanganku`. All panels (Conversations, Chat, Automations, Customize, Skills, MCP…) are 100% identical to production; only the live agent backend itself cannot be self-hosted here (it requires the OpenHands runtime service).
 
 > The two `work-*` runtime hosts documented below ran on an ephemeral OpenHands
 > sandbox and are no longer live — they are kept here as reference from the original deployment.
