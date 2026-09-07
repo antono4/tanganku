@@ -2,12 +2,14 @@
 
 Self-hosted [OpenHands Agent Canvas](https://docs.openhands.dev/openhands/usage/agent-canvas/) deployment for [antonockr1](https://github.com/antono4).
 
-## What's deployed
+## Live demo
 
 | URL | Service |
 | --- | --- |
-| `https://work-1-fvvocjbmlliibebj.prod-runtime.all-hands.dev/` | Agent Canvas UI (ingress, port 12000, host work-1) |
-| `https://work-2-fvvocjbmlliibebj.prod-runtime.all-hands.dev/` | Agent Canvas UI (static frontend, port 12001, host work-2) |
+| `https://antono4.github.io/tanganku/` | Interactive Canvas UI demo (served via GitHub Pages) |
+
+> The two `work-*` runtime hosts documented below ran on an ephemeral OpenHands
+> sandbox and are no longer live — they are kept here as reference from the original deployment.
 
 The stack runs:
 
