@@ -1,1 +1,26 @@
-Last updated: 2026-10-17 10:35:24 WIB
+# tanganku
+
+
+
+## 📋 Overview
+
+This repository contains **297 files** and is built with the following technologies:
+
+HTML, JavaScript
+
+## 🚀 Quick Start
+
+## ✨ Features
+
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+HTML, JavaScript
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-10-17 10:39:52 WIB*
